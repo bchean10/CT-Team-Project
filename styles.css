@@ -369,3 +369,7 @@ dd {
 th {
 	border-bottom: 2px solid lightgrey;
 }
+
+#bottom-text {
+	font-size: 13px;
+}
