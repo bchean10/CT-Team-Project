@@ -337,33 +337,42 @@ footer nav {
 
 /* SERVICES PAGE'S CSS */
 .side-nav {
-	background-image: url(../images/nav_side.jpg);
-	color: #fff;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: fixed;
+    background-image: url(../images/nav_side.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .side-nav img {
-	width: 100%;
+    width: 100%;
 }
 #nav-header {
-	text-transform: uppercase;
-	border-bottom: 2px solid #eee;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eee;
 }
 
 .nav-list a {
-	text-decoration: none;
-	color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 dd {
-	padding-left: 10px;
+    padding-left: 10px;
 }
 
 .cnt-img-wrapper img {
-	width: 250px;
-	margin: 3px;
+    width: 100%;
+}
+
+/* LOCATION PAGE'S CSS - Add bottom border line to the table */
+
+th {
+	border-bottom: 2px solid lightgrey;
+}
+
+#bottom-text {
+	font-size: 13px;
 }
 
 /* CONTACT US CSS */
